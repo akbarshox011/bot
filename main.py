@@ -18,8 +18,6 @@ async def telefon(message: Message):
     await message.reply('https://openbudget.uz/')
 
 
-
-
 @dp.message_handler()
 async def echo(message: Message):
     text = message.text
